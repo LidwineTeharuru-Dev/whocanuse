@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Text, MediumText, Heading } from './typography'
-import { theme } from '../components/theme'
+import { theme } from './theme'
 import styled from '@emotion/styled'
 import Avatar from '../images/avatar.png'
 
@@ -33,9 +33,9 @@ const ButtonWrapper = styled('div')({
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
-  'span': {
-    marginRight: '6px'
-  }
+  span: {
+    marginRight: '6px',
+  },
 })
 
 const Author = styled('div')({
@@ -172,7 +172,6 @@ export class About extends Component {
         </AboutWrapper>
         <Author>
           <ButtonWrapper>
-            <VersionWrapper>v1.0.0</VersionWrapper>
             <a
               className="github-button"
               href="https://github.com/coreyginnivan/whocanuse/fork"
