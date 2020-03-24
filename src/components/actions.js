@@ -4,7 +4,7 @@ import { SmallText } from './typography'
 import { theme } from './theme'
 import { TwitterShareButton } from 'react-twitter-embed'
 import { linkPath } from '../helpers/link'
-import CarbonAds from 'react-carbon-ads'
+import CarbonAds from './carbonad'
 
 import Tippy from '@tippy.js/react'
 
